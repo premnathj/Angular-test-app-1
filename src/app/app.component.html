@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align: center;">
+  <div>
+    <h3>Response</h3>
+    {{response1|async|json}}
+  </div>
+  <button (click)="getPost(1)">Get Post 1</button>
+  <div>
+    <h3>Response</h3>
+    {{response2|async|json}}
+  </div>
+  <button (click)="getTodo(2)">Get Todo 2</button>
+</div>
